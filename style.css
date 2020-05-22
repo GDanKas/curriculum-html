@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    width: 1000px;
+    height: 800px;
+    border: black 1px solid;
+}
+
+div#main {
+    float: right;
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div#main h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div#main h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div#main h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+div#main p {
+    margin-top: 0px;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 20px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: rgb(43, 64, 94);
+}
+
+aside p, aside h1 {
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+}
+
+aside h1 {
+    font-size: 18px;
+}
+
+.last {
+    margin-bottom: 40px;
+}
+
+.separatrons {
+    margin-bottom: 0px;
+}
